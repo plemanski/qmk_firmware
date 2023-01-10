@@ -1,1 +1,12 @@
 # This file intentionally left blank
+BOOTLOADER = rp2040
+
+CONVERT_TO=blok
+
+BOOTMAGIC_ENABLE = yes
+MOUSEKEY_ENABLE = yes
+EXTRAKEY_ENABLE = yes
+NKRO_ENABLE = no
+RGB_MATRIX_ENABLE = no
+OLED_ENABLE = no
+ENCODER_ENABLE = no
